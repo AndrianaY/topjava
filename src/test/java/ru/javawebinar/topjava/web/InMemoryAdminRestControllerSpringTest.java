@@ -31,14 +31,14 @@ public class InMemoryAdminRestControllerSpringTest {
 
     @Autowired
     private UserRepository repository;
-
+//
     @Before
     public void setUp() throws Exception {
         repository.getAll().forEach(u -> repository.delete(u.getId()));
         repository.save(USER);
         repository.save(ADMIN);
     }
-
+//
     @Test
     public void testDelete() throws Exception {
         controller.delete(UserTestData.USER_ID);
@@ -52,3 +52,4 @@ public class InMemoryAdminRestControllerSpringTest {
         controller.delete(10);
     }
 }
+//
