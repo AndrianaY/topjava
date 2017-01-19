@@ -1,5 +1,3 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/94bb38cb42004da19d46619ba9153960)](https://www.codacy.com/app/AndrianaY/topjava?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AndrianaY/topjava&amp;utm_campaign=Badge_Grade)
-
 Java Enterprise Online Project 
 ===============================
 Наиболее востребованные технологии /инструменты / фреймворки Java Enterprise:
